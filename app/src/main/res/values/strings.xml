@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Campus Event Explorer</string>
+    <string name="list_title">Campus Events</string>
+    <string name="search_label">Search events</string>
+    <string name="no_matches">No events match “%1$s”.</string>
+    <string name="detail_title_fallback">Event</string>
+    <string name="up_description">Back to events</string>
+    <string name="label_when">When</string>
+    <string name="label_where">Where</string>
+    <string name="label_about">About this event</string>
+    <string name="share_event">Share event</string>
+    <string name="event_unavailable">Event unavailable</string>
+    <string name="event_unavailable_body">This event is no longer in the campus event list.</string>
+    <string name="return_to_events">Return to events</string>
 </resources>
