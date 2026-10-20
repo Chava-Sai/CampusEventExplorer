@@ -21,6 +21,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <!--
+                Lets the detail destination be opened directly, which is how the
+                "Event unavailable" path can be exercised with an id that matches no event:
+                adb shell am start -a android.intent.action.VIEW -d "campusevents://event/99999"
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="event"
+                    android:scheme="campusevents" />
+            </intent-filter>
         </activity>
     </application>
 
