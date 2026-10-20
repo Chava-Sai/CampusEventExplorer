@@ -80,3 +80,7 @@ detail, rotating keeps the detail destination visible, Back returns to the list 
 still in place, selecting a second event and pressing Back behaves the same, the share sheet offers
 `Mobile Development Meetup — Tuesday 6:30 PM — CAS 214`, and an unknown id shows **Event
 unavailable** with a **Return to events** button instead of crashing.
+
+## AI and collaboration disclosure
+
+I completed this assignment independently and did not collaborate with classmates. I used Claude only to clarify two Kotlin/Jetpack Compose syntax issues: (1) type-safe navigation with `@Serializable` routes, `composable<EventDetail>`, and `toRoute()`; and (2) delegated search state with `rememberSaveable`, `getValue`, and `setValue`. I wrote and verified the final app code myself.
